@@ -1,0 +1,2 @@
+# customDurability
+ customDurability 5
