@@ -4,11 +4,10 @@ import megagrnyt.customdurability.api.durabilityManager;
 import megagrnyt.customdurability.commands.durabilityCommand;
 import megagrnyt.customdurability.listeners.*;
 import megagrnyt.customdurability.utils.HexUtil;
-import megagrnyt.customdurability.utils.Messages;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.Objects;
 
 public final class CustomDurability extends JavaPlugin {
 
