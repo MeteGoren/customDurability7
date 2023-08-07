@@ -55,6 +55,6 @@ public final class CustomDurability extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        Bukkit.getOnlinePlayers().stream().filter(player -> player.hasMetadata("customdurability")).forEach(Player::closeInventory);
     }
 }
